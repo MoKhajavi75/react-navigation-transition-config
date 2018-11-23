@@ -6,14 +6,16 @@
 
 </div>
 
-### Install
+---
+
+## Install
 
 | Package Manager |                      Command                      |
 | :-------------: | :-----------------------------------------------: |
 |     **npm**     | `npm i --save react-navigation-transition-config` |
 |    **yarn**     |   `yarn add react-navigation-transition-config`   |
 
-### Usage
+## Usage
 
 Use these functions as `transitionConfig` with [react-navigation](https://reactnavigation.org/):
 
@@ -35,7 +37,7 @@ Use these functions as `transitionConfig` with [react-navigation](https://reactn
 
 * `fadeIn`
 
----
+## Example
 
 ```javascript
 import { createStackNavigator } from "react-navigation";
@@ -66,17 +68,17 @@ transitionConfig: () => fromLeft(1000),
 
 ## Transitions
 
-|                  fromLeft                   |                  fromRight                   |                  fromBottom                   |                  fromTop                   |
-| :-----------------------------------------: | :------------------------------------------: | :-------------------------------------------: | :----------------------------------------: |
-| <img src="./GIFs/fromLeft.gif" width="250"> | <img src="./GIFs/fromRight.gif" width="250"> | <img src="./GIFs/fromBottom.gif" width="250"> | <img src="./GIFs/fromTop.gif" width="250"> |
-|                      .                      |                      .                       |                       .                       |                     .                      |
-|                 **zoomIn**                  |                 **zoomOut**                  |                   **flipX**                   |                 **flipY**                  |
-|  <img src="./gifs/zoomIn.gif" width="250">  |  <img src="./GIFs/zoomOut.gif" width="250">  |   <img src="./GIFs/flipX.gif" width="250">    |  <img src="./GIFs/flipY.gif" width="250">  |
-|                      .                      |                      .                       |                       .                       |                     .                      |
-|                 **fadeIn**                  |                      -                       |                       -                       |                     -                      |
-|  <img src="./GIFs/fadeIn.gif" width="250">  |                      -                       |                       -                       |                     -                      |
+|                               fromLeft                                |                                fromRight                                |                                fromBottom                                |                                fromTop                                |
+| :-------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----------------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| <img src="./GIFs/fromLeft.gif" alt="Will be added soon!" width="250"> | <img src="./GIFs/fromRight.gif" alt="Will be added soon!"  width="250"> | <img src="./GIFs/fromBottom.gif"  alt="Will be added soon!" width="250"> | <img src="./GIFs/fromTop.gif"  alt="Will be added soon!" width="250"> |
+|                                   .                                   |                                    .                                    |                                    .                                     |                                   .                                   |
+|                              **zoomIn**                               |                               **zoomOut**                               |                                **flipX**                                 |                               **flipY**                               |
+| <img src="./gifs/zoomIn.gif" alt="Will be added soon!"  width="250">  |  <img src="./GIFs/zoomOut.gif" alt="Will be added soon!"  width="250">  |   <img src="./GIFs/flipX.gif"  alt="Will be added soon!" width="250">    |  <img src="./GIFs/flipY.gif" alt="Will be added soon!"  width="250">  |
+|                                   .                                   |                                    .                                    |                                    .                                     |                                   .                                   |
+|                              **fadeIn**                               |                                    -                                    |                                    -                                     |                                   -                                   |
+| <img src="./GIFs/fadeIn.gif" alt="Will be added soon!"  width="250">  |                                    -                                    |                                    -                                     |                                   -                                   |
 
-### Credit
+## Credit
 
 This library is based on [react-navigation-transitions](https://github.com/plmok61/react-navigation-transitions). I added more transitions!
 
