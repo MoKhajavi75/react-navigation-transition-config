@@ -1,0 +1,30 @@
+{
+  "name": "react-navigation-transition-config",
+  "version": "1.0.0",
+  "description": "Custom transition config for react-navigation",
+  "author": "MohamadKh75",
+  "license": "MIT",
+  "private": false,
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamadKh75/react-navigation-transition-config.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-navigation",
+    "navigation",
+    "transitions",
+    "transitionConfig",
+    "react navigation transitionConfig",
+    "animations",
+    "MohamadKh75"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-navigation": "*"
+  },
+  "homepage": "https://github.com/MohamadKh75/react-navigation-transition-config#README.md"
+}
