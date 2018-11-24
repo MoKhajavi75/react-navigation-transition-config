@@ -19,24 +19,6 @@
 
 Use these functions as `transitionConfig` with [react-navigation](https://reactnavigation.org/):
 
-- `fromLeft`
-
-- `fromRight`
-
-- `fromBottom`
-
-- `fromTop`
-
-* `zoomIn`
-
-* `zoomOut`
-
-* `flipX`
-
-* `flipY`
-
-* `fadeIn`
-
 ## Example
 
 ```javascript
@@ -66,17 +48,39 @@ The default duration is `300` milliseconds change it:
 transitionConfig: () => fromLeft(1000),
 ```
 
+You can also take a look at [examples](./examples):
+
+```bash
+cd examples
+
+yarn
+
+react-native run-android
+
+# OR
+
+react-native run-ios
+```
+
 ## Transitions
 
-|                               fromLeft                                |                                fromRight                                |                                fromBottom                                |                                fromTop                                |
-| :-------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----------------------------------------------------------------------: | :-------------------------------------------------------------------: |
-| <img src="./GIFs/fromLeft.gif" alt="Will be added soon!" width="250"> | <img src="./GIFs/fromRight.gif" alt="Will be added soon!"  width="250"> | <img src="./GIFs/fromBottom.gif"  alt="Will be added soon!" width="250"> | <img src="./GIFs/fromTop.gif"  alt="Will be added soon!" width="250"> |
-|                                   .                                   |                                    .                                    |                                    .                                     |                                   .                                   |
-|                              **zoomIn**                               |                               **zoomOut**                               |                                **flipX**                                 |                               **flipY**                               |
-| <img src="./gifs/zoomIn.gif" alt="Will be added soon!"  width="250">  |  <img src="./GIFs/zoomOut.gif" alt="Will be added soon!"  width="250">  |   <img src="./GIFs/flipX.gif"  alt="Will be added soon!" width="250">    |  <img src="./GIFs/flipY.gif" alt="Will be added soon!"  width="250">  |
-|                                   .                                   |                                    .                                    |                                    .                                     |                                   .                                   |
-|                              **fadeIn**                               |                                    -                                    |                                    -                                     |                                   -                                   |
-| <img src="./GIFs/fadeIn.gif" alt="Will be added soon!"  width="250">  |                                    -                                    |                                    -                                     |                                   -                                   |
+- `fromLeft`
+
+- `fromRight`
+
+- `fromBottom`
+
+- `fromTop`
+
+* `zoomIn`
+
+* `zoomOut`
+
+* `flipX`
+
+* `flipY`
+
+* `fadeIn`
 
 ## Credit
 
